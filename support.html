@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rumina Support</title>
+<meta name="description" content="Help with Rumina, the baby feeding log: sharing, widgets, Siri, Rumina Plus and your data.">
+<style>
+  :root {
+    --bg: #F7F1EA; --surface: #FFFBF6; --text: #2B2420; --muted: #6B5E55;
+    --accent: #A55C45; --line: #E6DCD1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1C1714; --surface: #26201C; --text: #F2EAE2; --muted: #B5A79C;
+      --accent: #E29A80; --line: #3A322C;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1C1714; --surface: #26201C; --text: #F2EAE2; --muted: #B5A79C;
+    --accent: #E29A80; --line: #3A322C;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+  h1, h2 { font-family: "New York", "Iowan Old Style", Georgia, serif; font-weight: 500; }
+  h1 { font-size: 40px; line-height: 1.15; margin: 8px 0 4px; }
+  h2 { font-size: 24px; margin: 36px 0 8px; }
+  .lead { color: var(--muted); }
+  details { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 14px 18px; margin: 10px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p, details ol, details ul { margin: 10px 0 2px; }
+  a { color: var(--accent); }
+  .contact { background: var(--surface); border: 1px solid var(--line); border-radius: 22px; padding: 20px 22px; margin-top: 32px; }
+  .todo { background: #fff3c4; color: #5b4500; padding: 0 4px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">Rumina</div>
+  <h1>Help</h1>
+  <p class="lead">Quick answers for the 3 a.m. questions. Rumina is a feeding log for parents, not medical advice. Follow your pediatrician's guidance.</p>
+
+  <h2>Shared log</h2>
+  <details><summary>How do I share the log with my partner?</summary>
+    <ol>
+      <li>Settings → Shared log → <strong>Share with partner</strong> (Rumina Plus).</li>
+      <li>Send the invite by Messages.</li>
+      <li>Your partner taps the link and Rumina opens. Joining is free for them.</li>
+    </ol>
+    <p>Both iPhones need iCloud turned on and the same version of Rumina.</p>
+  </details>
+  <details><summary>A feed from my partner hasn't appeared</summary>
+    <ul>
+      <li>Open Settings → Shared log and tap <strong>Sync now</strong>. The status should say "Up to date".</li>
+      <li>Leave Rumina in the app switcher (don't swipe it away), keep Background App Refresh on for Rumina, and note that Low Power Mode pauses background updates.</li>
+      <li>If you see red text under the status, include it when you contact us.</li>
+    </ul>
+  </details>
+  <details><summary>Can Apple or Polymetislab see our log?</summary>
+    <p>No. The shared log is end-to-end encrypted with keys that only your family's devices hold. See the <a href="privacy.html">privacy policy</a>.</p>
+  </details>
+
+  <h2>Logging</h2>
+  <details><summary>How does the bottle timer work?</summary>
+    <p>Logging a bottle saves the feed and starts the bottle timer (1 hour by default, Settings → Bottle safety). It turns orange near the limit, shows "Bottle expired", and clears itself 30 minutes later. Tap Done to clear it early.</p>
+  </details>
+  <details><summary>Twins or more than one baby</summary>
+    <p>Settings → Babies → <strong>Add a baby</strong>. The Log title then shows the baby's name; tap it to switch. Trends, the doctor PDF, the widget and Siri follow the baby you chose.</p>
+  </details>
+  <details><summary>Siri commands</summary>
+    <p>Say "Hey Siri" and then, for example, "start left side in Rumina", "start bottle feeding in Rumina" (Siri asks how much), "stop feeding in Rumina" or "when was the last feed in Rumina". Settings in Rumina lists every phrase.</p>
+  </details>
+  <details><summary>The widget isn't updating</summary>
+    <p>Open Rumina once. The widget shows what Rumina has saved on this iPhone, and updates from your partner arrive when iOS lets Rumina refresh in the background.</p>
+  </details>
+
+  <h2>Rumina Plus</h2>
+  <details><summary>What's free and what's Plus?</summary>
+    <p>Logging, history, Siri and the Control Center button are free. Rumina Plus ($19.99 a year, or $34.99 once) adds the shared log, Trends with "Send to my doctor", and the Home and Lock Screen widget. One purchase covers your partner.</p>
+  </details>
+  <details><summary>Restore or cancel</summary>
+    <p>Restore: Settings → Rumina Plus → Restore purchases. Cancel the yearly plan in iPhone Settings → [your name] → Subscriptions. Refunds are handled by Apple at reportaproblem.apple.com.</p>
+  </details>
+
+  <h2>Your data</h2>
+  <details><summary>Back up or move to a new iPhone</summary>
+    <p>Settings → Backup → Export saves a file; Import on the new iPhone adds every feed. With the shared log, the new iPhone gets the log from iCloud automatically.</p>
+  </details>
+  <details><summary>Delete everything</summary>
+    <p>Settings → Erase all data. If you started the shared log, it is removed from iCloud and from your partner's phone too.</p>
+  </details>
+  <details><summary>Lock Rumina with Face ID</summary>
+    <p>Settings → Privacy → Require Face ID. "Hide details on Lock Screen" keeps amounts, sides and foods off the Lock Screen while your iPhone is locked.</p>
+  </details>
+
+  <div class="contact">
+    <strong>Still stuck?</strong> Email <a href="mailto:polymetislab@gmail.com">polymetislab@gmail.com</a> with your iPhone model, iOS version and Rumina version (Settings → About). We read every message.
+  </div>
+</main>
+</body>
+</html>
